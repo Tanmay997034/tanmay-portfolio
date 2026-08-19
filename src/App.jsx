@@ -19,12 +19,19 @@ function App() {
     const sections = document.querySelectorAll('.reveal-section');
     sections.forEach((section) => {
       gsap.fromTo(section, 
-        { opacity: 0, y: 30 },
+        { 
+          opacity: 0, 
+          y: 60, 
+          scale: 0.98,
+          filter: 'blur(10px)' // Adds a futuristic focus-pull effect
+        },
         {
           opacity: 1, 
           y: 0, 
-          duration: 0.8, 
-          ease: 'power3.out',
+          scale: 1,
+          filter: 'blur(0px)',
+          duration: 1.2, // Slightly longer for a cinematic feel
+          ease: 'expo.out', // Snappier, premium easing curve
           scrollTrigger: {
             trigger: section,
             start: 'top 85%',

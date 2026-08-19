@@ -24,6 +24,52 @@ body {
 .text-gradient {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
 }
+wing Edges */
+.glass-panel {
+  @apply bg-surface backdrop-blur-xl rounded-2xl shadow-2xl relative overflow-hidden;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+  /* Combined Body Block */
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  /* Subtle Futuristic Background Grid */
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-attachment: fixed;
+}
+
+/* Premium Glass Panels with Glowing Edges */
+.glass-panel {
+  @apply bg-surface backdrop-blur-xl rounded-2xl shadow-2xl relative overflow-hidden;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.4), transparent 40%, transparent 60%, rgba(59, 130, 246, 0.4));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.glass-panel:hover::before {
+  opacity: 1;
+}
+
+/* Text Gradient Utility */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+}
 
 /* Reduced motion for accessibility */
 @media (prefers-reduced-motion: reduce) {

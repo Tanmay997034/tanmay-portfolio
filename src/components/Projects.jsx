@@ -71,9 +71,14 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-2 mb-8">
-                  {project.tech.map((t, i) => (
-                    <span key={i} className="text-[11px] px-2.5 py-1 bg-surface border border-surfaceBorder rounded text-slate-300">{t}</span>
-                  ))}
+                 {project.tech.map((t, i) => (
+                  <span 
+                    key={i} 
+                    className="text-[11px] px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-slate-300 hover:text-white hover:bg-white/10 hover:border-primary/50 hover:shadow-[0_0_10px_rgba(139,92,246,0.2)] transition-all cursor-default"
+                  >
+                   {t}
+                  </span>
+               ))}
                 </div>
 
                 <div className="flex items-center gap-4 mt-auto">

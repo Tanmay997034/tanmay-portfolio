@@ -34,7 +34,8 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <a href="#projects" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white px-8 py-3.5 rounded-lg font-medium flex items-center justify-center gap-2 transition-all shadow-[0_0_20px_-5px_rgba(139,92,246,0.5)]">
+            
+            <a href="#projects" className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white px-8 py-3.5 rounded-lg font-medium flex items-center justify-center gap-2 transition-all animate-glow-pulse">
               View My Work <ArrowRight size={18} />
             </a>
             <a href="/cv.pdf" download className="w-full sm:w-auto bg-surface hover:bg-surfaceBorder border border-surfaceBorder text-white px-8 py-3.5 rounded-lg font-medium flex items-center justify-center gap-2 transition-all">

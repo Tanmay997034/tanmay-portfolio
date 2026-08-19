@@ -21,6 +21,15 @@ export default {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+      },
+      animation: {
+        'glow-pulse': 'glow-pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+      keyframes: {
+        'glow-pulse': {
+          '0%, 100%': { boxShadow: '0 0 20px -5px rgba(139,92,246,0.5)' },
+          '50%': { boxShadow: '0 0 40px 5px rgba(139,92,246,0.8)' },
+        }
       }
     },
   },

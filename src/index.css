@@ -12,28 +12,10 @@ html {
   color: #F8FAFC;
 }
 
+/* Combined Body Block */
 body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-}
-
-.glass-panel {
-  @apply bg-surface backdrop-blur-md border border-surfaceBorder rounded-2xl shadow-xl;
-}
-
-.text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
-}
-wing Edges */
-.glass-panel {
-  @apply bg-surface backdrop-blur-xl rounded-2xl shadow-2xl relative overflow-hidden;
-  border: 1px solid rgba(255, 255, 255, 0.03);
-}
-  /* Combined Body Block */
-body {
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  /* Subtle Futuristic Background Grid */
   background-image: 
     linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);

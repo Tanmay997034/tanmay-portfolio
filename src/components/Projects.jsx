@@ -6,10 +6,10 @@ const projectData = [
   {
     name: 'ReszuPro',
     category: 'AI-Powered ATS Resume Builder',
-    description: 'Full-stack SaaS platform that generates ATS-compliant resumes using a MERN architecture with AI-powered prompting workflows.',
+    description: 'Engineered a full-stack SaaS platform solving resume formatting bottlenecks. Integrated OpenAI to dynamically generate ATS-compliant content, utilizing a highly scalable MERN architecture.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'AI APIs', 'Netlify', 'Render'],
     architecture: 'MongoDB → Express.js → React → Node.js → AI APIs',
-    features: ['ATS-focused resume generation', 'AI-powered content optimization', 'Responsive UI', 'REST API backend'],
+    features: ['ATS-focused generation', 'AI-content optimization', 'Responsive UI', 'REST API backend'],
     live: 'https://reszupro.com',
     github: 'https://github.com/Tanmay997034',
     glow: 'group-hover:shadow-[0_0_40px_-10px_rgba(139,92,246,0.3)] hover:border-primary/50'
@@ -17,21 +17,21 @@ const projectData = [
   {
     name: 'ThumbBunny',
     category: 'Digital Utility Hub for Creators',
-    description: 'Client-side digital utility platform designed for content creators and social media users, combining interactive UI, animations, and monetization-ready architecture.',
+    description: 'Developed a high-traffic, client-side utility platform for content creators. Focused heavily on performance optimization, GSAP micro-animations, and a monetization-ready frontend architecture.',
     tech: ['React', 'JavaScript', 'GSAP', 'Tailwind CSS', 'Netlify'],
     architecture: 'React Frontend → GSAP Animations → Netlify CI/CD',
-    features: ['Creator utilities', 'GSAP animations', 'Monetization-ready architecture', 'Automated CI/CD'],
+    features: ['Creator utilities', 'GSAP animations', 'Monetization-ready', 'Automated CI/CD'],
     live: 'https://thumbunny.netlify.com',
     github: 'https://github.com/Tanmay997034',
     glow: 'group-hover:shadow-[0_0_40px_-10px_rgba(59,130,246,0.3)] hover:border-secondary/50'
   },
   {
     name: 'Shake Smith Co.',
-    category: 'Brand Showcase & Discovery Website',
-    description: 'Dynamic brand showcase website focused on responsive UI, technical SEO, structured content, and interactive product/menu presentation.',
+    category: 'Brand Showcase & Discovery Platform',
+    description: 'Architected a dynamic web presence to drive physical store foot traffic. Implemented advanced technical SEO, Schema markup, and a mobile-first UI to maximize search visibility and user conversion.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS', 'SEO', 'Schema Markup'],
     architecture: 'Semantic HTML → Responsive UI → Technical SEO',
-    features: ['Interactive menu previews', 'Technical SEO', 'Schema markup', 'Mobile-first experience'],
+    features: ['Interactive previews', 'Technical SEO', 'Schema markup', 'Mobile-first'],
     live: 'https://shakesmithco.com',
     github: 'https://github.com/Tanmay997034',
     glow: 'group-hover:shadow-[0_0_40px_-10px_rgba(217,70,239,0.3)] hover:border-accent/50'

@@ -21,7 +21,7 @@ const projectData = [
     tech: ['React', 'JavaScript', 'GSAP', 'Tailwind CSS', 'Netlify'],
     architecture: 'React Frontend → GSAP Animations → Netlify CI/CD',
     features: ['Creator utilities', 'GSAP animations', 'Monetization-ready', 'Automated CI/CD'],
-    live: 'https://thumbunny.netlify.com',
+    live: 'https://thumbbunny.netlify.app',
     github: 'https://github.com/Tanmay997034',
     glow: 'group-hover:shadow-[0_0_40px_-10px_rgba(59,130,246,0.3)] hover:border-secondary/50'
   },

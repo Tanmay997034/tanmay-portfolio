@@ -27,7 +27,7 @@ const Contact = () => {
                   <a href="https://github.com/Tanmay997034" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors bg-white/5 px-4 py-2 rounded-lg border border-white/5">
                     <Github size={18} /> View GitHub
                   </a>
-                  <a href="https://linkedin.com/in/tanmaylonkar" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors bg-white/5 px-4 py-2 rounded-lg border border-white/5">
+                  <a href="https://www.linkedin.com/in/tanmay-lonkar-675318277" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors bg-white/5 px-4 py-2 rounded-lg border border-white/5">
                     <Linkedin size={18} /> Connect on LinkedIn
                   </a>
                 </div>

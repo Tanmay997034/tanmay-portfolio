@@ -45,7 +45,7 @@ const Hero = () => {
 
           <div className="flex items-center gap-6 pt-4 text-slate-400">
             <a href="https://github.com/Tanmay997034" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-white transition-colors"><Github size={24} /></a>
-            <a href="https://linkedin.com/in/tanmaylonkar" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors"><Linkedin size={24} /></a>
+            <a href="https://www.linkedin.com/in/tanmay-lonkar-675318277" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-white transition-colors"><Linkedin size={24} /></a>
             <a href="mailto:tanmaylonkar3@gmail.com" aria-label="Email" className="hover:text-white transition-colors"><Mail size={24} /></a>
           </div>
 
